@@ -6,12 +6,18 @@
 ###### The smallest heading
 ```
 
+# Foo
+
+###### Bar
+
 # Styling text
 
 - Bold: `** **` ou `__ __`
 - Italic: `* *` ou `_ _`
 - Rabiscado: `~~ ~~`
 - Bold e Italico: `*** ***`
+
+**Foo** **Bar**.
 
 # Citações
 
@@ -27,7 +33,7 @@ Use ``. (crase antes e depois)
 
 # Citar código de várias linhas
 
-Use 3 crases ``
+Use 3 crases ``` antes e depois.
 
 ```
 Foo
@@ -38,13 +44,13 @@ Bar
 
 Use colchetes `[]` no texto, e parênteses `()` na URL.
 
-Foo [bar](google.com).
+Foo [bar](http://google.com).
 
 ## Links relativos
 
 Vc pode linkar dentro do projeto.
 
-Foo [bar](src/app/foobar.md).
+Foo [bar](./src/app/foobar.md).
 
 # Listas
 
